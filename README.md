@@ -25,5 +25,6 @@ E.g.: `http://djangogirls.org/london`
 ## Frequently-used commands
 
  - Start server: `python3 manage.py runserver`
- - Create database: `python3 manage.py migrate`
+ - Create/update database: `python3 manage.py migrate`
  - Create app (or Python module?): `python3 manage.py startapp blog`. Note that everytime a new app is created, you'll still need to tell Django to use it: add it to the `INSTALLED_APPS` list in `settings.py`
+ - create admin: `python3 manage.py createsuperuser`
