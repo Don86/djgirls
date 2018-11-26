@@ -21,6 +21,7 @@ E.g.: `http://djangogirls.org/london`
 
  - `settings.py` - contains website config stuff
  - `urls.py` - Contains a list of patterns used by `urlresolver`
+ - A *view* contains the "logic" of an application. (They're python functions)
 
 ## Frequently-used commands
 
@@ -28,3 +29,7 @@ E.g.: `http://djangogirls.org/london`
  - Create/update database: `python3 manage.py migrate`
  - Create app (or Python module?): `python3 manage.py startapp blog`. Note that everytime a new app is created, you'll still need to tell Django to use it: add it to the `INSTALLED_APPS` list in `settings.py`
  - create admin: `python3 manage.py createsuperuser`
+
+## Useful Links
+
+ - [Django deployment checklist](https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/)
