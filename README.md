@@ -30,6 +30,16 @@ E.g.: `http://djangogirls.org/london`
  - Create app (or Python module?): `python3 manage.py startapp blog`. Note that everytime a new app is created, you'll still need to tell Django to use it: add it to the `INSTALLED_APPS` list in `settings.py`
  - create admin: `python3 manage.py createsuperuser`
 
+### For shell:
+
+Handy imports:
+
+```
+from blog.models import Post
+from django.contrib.auth.models import User
+from django.utils import timezone
+```
+
 ## Useful Links
 
  - [Django deployment checklist](https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/)
