@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Django Try</title>
-
         <!-- JS for parsing and viewing trees -->
         <!-- src: Tim Vaughan's icytree -->
         {% load staticfiles %}
-        <script src="{% static "blog/js/blog.js" %}"></script>
-        <script src="{% static "blog/js/treedrawer.js" %}"></script>
-        <script src="{% static "blog/js/treeparsing.js" %}"></script>
+        <script src="{% static 'blog/test.js' %}"></script>
 
-
+        <title>Django Try</title>
     </head>
+
     <body>
+        <!-- JS test -->
+        <p>Button to test JS import functionality</p>
+        <p id="demo-btn">A Paragraph</p>
+        <button type="button" onclick="myFunction()">Click me</button>
+
         <div>
             <h1><a href="/">Test Django App</a></h1>
         </div>
